@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package metrics;
+
+option java_package = "com.github.nfisher.msc.proto";
+
+message Metric {
+  int64 timestamp = 1;
+  repeated double values = 2;
+}
