@@ -7,4 +7,5 @@ option java_package = "com.github.nfisher.msc.proto";
 message Metric {
   int64 timestamp = 1;
   repeated double values = 2;
+  int64 uid = 3;
 }
